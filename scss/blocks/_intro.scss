@@ -1,0 +1,151 @@
+.intro-title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+}
+
+.intro-line {
+  background: #710707;
+  border-radius: 0px;
+}
+
+.intro-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 75px;
+}
+
+.intro-items {
+  width: 440px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  transition: transform 0.4s ease;
+}
+
+.intro-list-title {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.intro-items:hover {
+  transform: scale(1.1);
+}
+
+.intro-list-line {
+  width: 300px;
+  height: 2px;
+  background: #710707;
+  margin-left: 0px;
+}
+
+.intro-list-text {
+  margin: 10px;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro-img {
+    width: 330px;
+    height: 215px;
+  }
+
+  .intro-title {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .intro-list-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .intro-list-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .intro-items {
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .intro-img {
+    width: 280px;
+    height: 180px;
+  }
+
+  .intro-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .intro-list-title {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .intro-list-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .intro-items {
+    width: 280px;
+  }
+
+  .intro-list-line {
+    width: 150px;
+    height: 2px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro-img {
+    width: 240px;
+    height: 140px;
+  }
+
+  .intro-items {
+    margin-left: 0px;
+  }
+
+  .intro-list {
+    margin-bottom: 50px;
+  }
+
+  .intro-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+  }
+}

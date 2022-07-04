@@ -1,0 +1,159 @@
+.hero {
+  background-color: black;
+}
+
+.hero-box {
+  height: 780px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../../img/monaliza.png);
+  background-repeat: no-repeat;
+  background-position: 500px 0px;
+  align-items: center;
+}
+
+.hero-title {
+  width: 593px;
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.hero-link {
+  width: 360px;
+  height: 75px;
+  background-color: rgba(113, 7, 7, 1);
+  color: #FFFFFF;
+  transition: 0.4s ease;
+  border-radius: 10px;
+}
+
+.hero-link:hover {
+  background-color: red;
+}
+
+@media only screen and (max-width: 1500px) {
+  .hero-title {
+    width: 396px;
+    height: 180px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+  }
+
+  .hero-text {
+    height: 28px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .hero-box {
+    background-position: 350px 0px;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .hero-box {
+    background-position: 200px 0px;
+  }
+}
+
+@media only screen and (max-width: 1235px) {
+  .hero-box {
+    background-position: 300px 0px;
+    background-size: 700px 525px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero-box {
+    flex-direction: column;
+  }
+
+  .hero-box {
+    background-position: 150px 400px, 150px 920px;
+    background-size: 700px 525px, 401px  40px;
+    height: 990px;
+    background-image: url(../../img/mona-liza.png),url(../../img/pages.png);
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .hero-box {
+    background-position: 50px 400px ,150px 920px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .hero-box {
+    background-position: 50px 400px ,150px 800px;
+    background-size: 580px 385px, 230px  40px;
+    height: 870px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .hero-box {
+    background-position: 50px 400px ,150px 800px;
+    background-size: 480px 385px, 230px  40px;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .hero-box {
+    background-position: 50px 300px, 150px 640px;
+    background-size: 380px 335px, 230px  40px;
+    height: 700px;
+  }
+
+  .hero-box-Louvre {
+    text-align: center;
+  }
+
+  .hero-title {
+    height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .hero-box {
+    background-position: 10px 250px, 50px 490px;
+    background-size: 280px 235px, 170px  40px;
+    height: 700px;
+  }
+
+  .hero-link {
+    display: none;
+  }
+
+  .hero-title {
+    width: 250px;
+  }
+
+  .hero-text {
+    width: 200px;
+  }
+}
